@@ -1,0 +1,83 @@
+{
+  "name": "mharz-react-scripts",
+  "version": "0.1.36",
+  "description": "Configuration and scripts for Create React App.",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "bin",
+    "config",
+    "scripts"
+  ],
+  "bin": {
+    "react-scripts": "./bin/react-scripts.js"
+  },
+  "dependencies": {
+    "eslint-config": "git@github.com:mhar-andal/eslint-config.git",
+    "react-svg-loader": "git@github.com:mhar-andal/react-svg-loader.git",
+    "autoprefixer": "6.7.7",
+    "babel-core": "6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "7.0.0",
+    "babel-plugin-dynamic-import-node": "^1.0.1",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-react-jsx-self": "^6.22.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.23.0",
+    "case-sensitive-paths-webpack-plugin": "2.0.0",
+    "chalk": "1.1.3",
+    "compression-webpack-plugin": "^0.4.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "0.28.1",
+    "dotenv": "4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-loader": "1.7.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "0.11.1",
+    "fs-extra": "3.0.0",
+    "html-webpack-plugin": "^2.28.0",
+    "http-proxy-middleware": "0.17.4",
+    "interpolate-html-plugin": "^2.0.0",
+    "jest": "^19.0.2",
+    "lodash-webpack-plugin": "^0.11.4",
+    "node-sass": "^4.5.2",
+    "object-assign": "4.1.1",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "postcss-loader": "1.3.3",
+    "preload-webpack-plugin": "^1.2.2",
+    "progress-bar-webpack-plugin": "^1.9.3",
+    "promise": "7.1.1",
+    "prompt": "^1.0.0",
+    "publish-release": "^1.3.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "request": "^2.81.0",
+    "sass-loader": "^6.0.3",
+    "sass-variable-loader": "^0.1.2",
+    "script-ext-html-webpack-plugin": "^1.7.1",
+    "style-loader": "0.17.0",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "url-loader": "0.5.8",
+    "webpack": "3.5.1",
+    "webpack-bugsnag-plugin": "0.0.9",
+    "webpack-dev-server": "2.4.5",
+    "webpack-manifest-plugin": "1.1.0",
+    "webpack-merge": "^4.1.0",
+    "webpack-s3-plugin": "^1.0.0-rc.0"
+  },
+  "devDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config"
+  }
+}
